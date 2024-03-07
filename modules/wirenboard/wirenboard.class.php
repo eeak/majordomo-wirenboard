@@ -336,7 +336,7 @@ class wirenboard extends module
             $rec['PATH'] = $path;
             $rec['TITLE'] = $path;
             $rec['DEVICE_ID']=$device_id;
-            $rec['ID'] = null;
+            // $rec['ID'] = null;
             SQLInsert('wirenboard', $rec);
         } else {
             /* Update values in db */
